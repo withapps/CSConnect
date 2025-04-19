@@ -1,0 +1,59 @@
+.wa-file-input{
+    width: 1px!important;
+    height: 1px!important;
+    padding: 0!important;
+    margin: -1px!important;
+    overflow: hidden!important;
+    clip: rect(0,0,0,0)!important;
+    white-space: nowrap!important;
+    border: 0!important;   
+}
+.wa-upload-button {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    vertical-align: middle !important;
+}
+.wa-image-loading {
+    width: 40px;
+    height: 40px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><radialGradient id="a12" cx=".66" fx=".66" cy=".3125" fy=".3125" gradientTransform="scale(1.5)"><stop offset="0" stop-color="%23FF156D"></stop><stop offset=".3" stop-color="%23FF156D" stop-opacity=".9"></stop><stop offset=".6" stop-color="%23FF156D" stop-opacity=".6"></stop><stop offset=".8" stop-color="%23FF156D" stop-opacity=".3"></stop><stop offset="1" stop-color="%23FF156D" stop-opacity="0"></stop></radialGradient><circle transform-origin="center" fill="none" stroke="url(%23a12)" stroke-width="15" stroke-linecap="round" stroke-dasharray="200 1000" stroke-dashoffset="0" cx="100" cy="100" r="70"><animateTransform type="rotate" attributeName="transform" calcMode="spline" dur="1" values="360;0" keyTimes="0;1" keySplines="0 0 1 1" repeatCount="indefinite"></animateTransform></circle><circle transform-origin="center" fill="none" opacity=".2" stroke="%23FF156D" stroke-width="15" stroke-linecap="round" cx="100" cy="100" r="70"></circle></svg>') no-repeat;
+    background-size: 50% 50%;
+    background-position: center center;
+    display: inline-block;
+    vertical-align:middle;
+    border: 1px solid #eee;
+    margin-left:3px;
+}
+.wa-image-uploaded {
+    display: inline-block;
+    position: relative!important;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #eee;
+    padding: 0!important;
+    overflow: hidden;
+    vertical-align: middle !important;
+    margin-left:3px;
+}
+.wa-image-uploaded img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover !important;
+    vertical-align: middle !important;
+}
+.wa-image-delete {
+    position: absolute!important;
+    left:0px!important;;
+    bottom: 0px!important;
+    width: 40px;
+    height: 14px;
+    font-size: 10px!important;
+    line-height: 15px !important;
+    color: #fff;
+    text-align: center;
+    background-color: #ff0000;
+    cursor: pointer;
+}
